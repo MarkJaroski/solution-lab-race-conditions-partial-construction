@@ -13,7 +13,7 @@ new expert lab, [Partial construction race conditions][https://portswigger.net/w
 
 It's tricky, as promised in James' article.
 
-== My approach ==
+## My approach
 
 One of the first things that I noticed was the phpsessionid cookie, which
 is mentioned in both the research paper, and the academy article as being
