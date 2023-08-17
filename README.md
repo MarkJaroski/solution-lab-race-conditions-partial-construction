@@ -1,7 +1,7 @@
 # solution-lab-race-conditions-partial-construction
 
 When I noticed on the evening of Thursday the 9th of August that James
-Kettle had published new research, [Smashing the state machine: the true potential of web race conditions][https://portswigger.net/research/smashing-the-state-machine] 
+Kettle had published new research, [Smashing the state machine: the true potential of web race conditions](https://portswigger.net/research/smashing-the-state-machine) 
 in connection with his talk at Defcon 2023 I was super exited to dig into
 it. I was, however, also dead tired from spending the day exploring Vienna,
 Austria with my family. So I promised myself I'd get started on the train
@@ -9,7 +9,7 @@ home the following day.
 
 By early Saturday afternoon I had already finished the *apprentice* and
 *practitioner* labs, and so I settled in for the 
-new expert lab, [Partial construction race conditions][https://portswigger.net/web-security/race-conditions/lab-race-conditions-partial-construction].
+new expert lab, [Partial construction race conditions](https://portswigger.net/web-security/race-conditions/lab-race-conditions-partial-construction).
 
 It's tricky, as promised in James' article.
 
