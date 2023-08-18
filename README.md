@@ -29,10 +29,6 @@ pragmatic. The key realisation is this: once a session is generated it's
 likely to be valid for some time, possibly the entire lifetime of the lab
 instance. So we can just generate them in advance in the stock Intruder.
 
-**screenshot here - intruder request**
-**screenshot here - intruder extraction**
-**screenshot here - intruder output**
-
 Here's the request I used in Intruder:
 
 ```
@@ -41,6 +37,17 @@ Host: <host>.web-security-academy.net
 X-Count: §xxx§
 
 ```
+
+![A simple GET request sent to intruder, and minimised, with an extra header for the dummy payload](resources/intruder_positions.png)
+
+![The payload is just a count](resources/intruder_payloads.png)
+
+![Extract the phpsessionid from all responses](resources/intruder_extract_phpsessionid.png)
+
+![Extract the anti-CSRF token from all responses](resources/intruder_extract_csrf.png)
+
+
+![The results from Intruder](resources/intruder_results.png)
 
 Here's an example of the Intruder attack output. I just did a select all,
 copy in the intruder output and pasted it into a file called
