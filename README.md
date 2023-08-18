@@ -203,21 +203,12 @@ I really should have noticed users.js earlier. Having done so would have
 saved me at least an hour. I can generalize this into a lesson to invest
 more time into the reconaissance phase of an attack.
 
-## Further research
+## Further ideas
 
 Given the importance of operational security it could be useful to optimise
 this attack to create fewer dummy accounts, and thus less noise. So the
 next step is to find the smallest number of sessions from sessions.txt
 which result in at least one valid account being created.
 
-This attack bears superficial similarity to early quantum physics
-experiments including the slit experiment and Lise Meitner's discovery of
-Nuclear Fission. I wonder if the sample of sucessful POSTs to /confirm
-might follow a wave function, and what relationship that function might
-have to Bohr's field strength equations.
 
-Obviously a web server is not a quantum system, however, patterns from
-physics and maths have a way of showing up in other domains, and while
-there might be nothing of interest to find here, there might also be some
-hidden poetry.
 
