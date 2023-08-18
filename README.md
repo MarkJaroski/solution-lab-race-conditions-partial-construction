@@ -1,4 +1,4 @@
-# solution-lab-race-conditions-partial-construction
+# Lab: Race Conditions Partial Construction - My Solution
 
 When I noticed on the evening of Thursday the 9th of August that James
 Kettle had published new research, [Smashing the state machine: the true potential of web race conditions](https://portswigger.net/research/smashing-the-state-machine) 
