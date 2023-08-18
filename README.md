@@ -107,3 +107,9 @@ def handleResponse(req, interesting):
     table.add(req)
 
 ```
+
+![Turbo intruder setup](resources/turbo_intruder_setup.png)
+
+![Turbo intruder results](resources/turbo_intruder_success.png)
+
+
