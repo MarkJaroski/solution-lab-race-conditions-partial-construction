@@ -146,7 +146,7 @@ possible to bounce back and forth between registration and confirmation.
 
 So that's exactly what my Turbo-Intruder settings script does. For each
 registration it also queues a confirmation POST in the hope that one or
-mroe of them hit the tiny window during which confirmation can be done
+more of them hit the tiny window during which confirmation can be done
 a null token. The server of course processes the requests in whatever order
 it chooses. So it's all luck from here:
 
