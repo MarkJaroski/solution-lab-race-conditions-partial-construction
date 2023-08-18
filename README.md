@@ -20,7 +20,7 @@ One of the first things that I noticed was the presence of a phpsessionid cookie
 Both the research paper and the academy article mention that the
 standard PHP session library forces sequential requests within a given
 session, masking race condition vulnerabilities. So I decided that my first
-step would be to create a valid sessions, and gather the *phpsessionid* and
+step would be to create a number of valid sessions, and gather the *phpsessionid* and
 corresponding anti-csrf tokens.
 
 My first attempt to generate sessions was with Burp macros, but after a few
